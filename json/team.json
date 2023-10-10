@@ -2,12 +2,15 @@
   "tim": [
     {
       "nama": "Alvaro Daniel Bamba",
-      "peran": "Back End"
+      "peran": "Back End",
+      "deskripsi": "coba coba backend",
+      "foto": "./gambar/alvaro.png"
     },
     {
       "nama": "Rachmatika Intan Sari",
-      "peran": "Front End"
-     
+      "peran": "Front End",
+      "deskripsi": "coba coba frontend",
+      "foto": "./gambar/intan.png"
     }
   ]
 }
