@@ -1,7 +1,7 @@
 /* Fetch Data proposal.json */
 
 // Mendefinisikan URL tempat JSON disimpan
-const jsonUrl = 'https://raw.githubusercontent.com/G-rent/build1/main/json/proposal.json'; // Ganti dengan URL tempat JSON disimpan
+const jsonUrl = 'https://raw.githubusercontent.com/G-rent/proyek3/main/json/proposal.json'; // Ganti dengan URL tempat JSON disimpan
 // Mengambil data JSON menggunakan fetch() API
 fetch(jsonUrl)
   .then(response => {
@@ -25,7 +25,7 @@ fetch(jsonUrl)
 /* Fetch Data team.json */
 
  // Import data JSON menggunakan fetch API
-fetch('https://raw.githubusercontent.com/G-rent/build1/main/json/team.json')
+fetch('https://raw.githubusercontent.com/G-rent/proyek3/build1/main/json/team.json')
   .then(response => response.json())
   .then(data => {
     // Menampilkan data JSON di dalam HTML
@@ -59,7 +59,7 @@ fetch('https://raw.githubusercontent.com/G-rent/build1/main/json/team.json')
 /* Fetch Data contact.json */
 
   // Mengambil data dari JSON menggunakan fetch() API
-fetch('https://raw.githubusercontent.com/Lakushop/build1/main/json/contact.json')
+fetch('https://raw.githubusercontent.com/G-rent/proyek3/main/json/contact.json')
   .then(response => response.json())
   .then(data => {
     // Mendapatkan data pengembang front end dan back end
@@ -76,7 +76,7 @@ fetch('https://raw.githubusercontent.com/Lakushop/build1/main/json/contact.json'
       <h2>Front End Enthusiast </h2>
       <p><strong>Nama:</strong> ${frontEnd.nama}</p>
       <p><strong>Email:</strong> ${frontEnd.email}</p>
-      <p><strong>Telepon:</strong> ${frontEnd.telepon}</p>
+      <p><strong>Telepon:</strong> ${frontEnd.NPM}</p>
     `;
 
     // Menampilkan data kontak back end dalam elemen div
@@ -86,7 +86,7 @@ fetch('https://raw.githubusercontent.com/Lakushop/build1/main/json/contact.json'
       <h2>Back End Enthusiast</h2>
       <p><strong>Nama:</strong> ${backEnd.nama}</p>
       <p><strong>Email:</strong> ${backEnd.email}</p>
-      <p><strong>Telepon:</strong> ${backEnd.telepon}</p>
+      <p><strong>Telepon:</strong> ${backEnd.NPM}</p>
     `;
 
     // Menambahkan elemen div kontak ke dalam div kontak-container
