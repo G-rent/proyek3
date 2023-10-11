@@ -25,7 +25,7 @@ fetch(jsonUrl)
 /* Fetch Data team.json */
 
  // Import data JSON menggunakan fetch API
-fetch('https://raw.githubusercontent.com/G-rent/proyek3/build1/main/json/team.json')
+fetch('https://raw.githubusercontent.com/G-rent/proyek3/main/json/team.json')
   .then(response => response.json())
   .then(data => {
     // Menampilkan data JSON di dalam HTML
